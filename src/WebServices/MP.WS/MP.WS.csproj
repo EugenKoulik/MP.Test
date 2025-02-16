@@ -71,9 +71,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="ticket_api.asmx.cs">
-      <DependentUpon>ticket_api.asmx</DependentUpon>
-    </Compile>
     <Compile Include="Old_App_Code\BaseWebService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Windsor\Adapter\TicketAdapter.cs" />
@@ -83,7 +80,6 @@
     <Compile Include="Windsor\Installer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ticket_api.asmx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

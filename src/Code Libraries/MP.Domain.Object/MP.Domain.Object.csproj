@@ -50,6 +50,10 @@
       <Project>{ed3173c8-b515-4c88-b69b-70e0d55dda93}</Project>
       <Name>MP.Domain.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MP.Model.WS\MP.Model.WS.csproj">
+      <Project>{5bd5a141-bf9e-47ce-8acb-632843dac096}</Project>
+      <Name>MP.Model.WS</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
